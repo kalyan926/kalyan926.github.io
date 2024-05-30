@@ -3,20 +3,15 @@
 <head>
     <title>My Website</title>
     <style>
-        /* Add some basic styling */
-        body {
-            font-family: Arial, sans-serif;
+       .button-container {
+            display: flex;
         }
-        .button-container {
-            margin-bottom: 20px;
-        }
-        button {
-            margin-right: 10px;
+        .button-container button {
+            margin: 0;
             padding: 10px 20px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
             cursor: pointer;
-        }
-        section {
-            margin-bottom: 50px;
         }
     </style>
 </head>
