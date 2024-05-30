@@ -47,10 +47,8 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 <li> <strong>ML/DL Libraries and Frameworks:</strong> Keras, TensorFlow, Scikit Learn, Numpy <li>
 <li> <strong>NLP Libraries:</strong> spaCy, NLTK, Gensim, Transformers, PEFT, Langchain, LlamaIndex <li> 
 <li> <strong>Versioning Tools:</strong> Git, mlflow, DVC <li>
-<li> <strong>Others:</strong> Streamlit<li>
-<ul></p>
-
-</section>
+<li> <strong>Others:</strong> Streamlit <li>
+<ul> </p> </section>
 
 <section id="Projects">
     <h2>🚀 Projects</h2>
