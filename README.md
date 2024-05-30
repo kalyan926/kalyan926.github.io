@@ -1,7 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="button-container">
+    <button onclick="scrollToSection('section1')">Section 1</button>
+    <button onclick="scrollToSection('section2')">Section 2</button>
+    <button onclick="scrollToSection('section3')">Section 3</button>
+</div>
+
+<section id="section1">
+    <h2>Section 1</h2>
+    <p>This is the content of Section 1. Here you can provide detailed information about this section.</p>
+</section>
+
+<section id="section2">
+    <h2>Section 2</h2>
+    <p>This is the content of Section 2. More detailed information can be added here.</p>
+</section>
+
+<section id="section3">
+    <h2>Section 3</h2>
+    <p>This is the content of Section 3. Include all the necessary details for this section.</p>
+</section>
+
+<script>
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
+
+
 
 <div style="display: flex; align-items: center;">
   <img src="images/profile_pic.png" alt="Alt text" style="margin-right: 10px; width: 100px;">
-  <p>## 👤 About Me
+  <p>## 👤 About Me <br>
 I am an NLP Data Science enthusiast with expertise in developing custom data-driven models across various domains,Fine-Tuning models using PEFT methods, leveraging large language model(LLM) capabilities with Langchain, creating multi-agent systems with Langchain for intelligent assistance, and building conversational chatbots.</p>
 </div>
 
