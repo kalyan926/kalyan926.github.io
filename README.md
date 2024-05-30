@@ -73,7 +73,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 
 <script>
     function scrollToSection(id) {
-        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        document.getElementById(id).scrollIntoView({ behavior: 'auto' });
     }
 </script>
 
