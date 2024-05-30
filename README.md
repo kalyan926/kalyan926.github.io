@@ -1,6 +1,6 @@
 
 <div style="display: flex; align-items: center;">
-  <img src="image_url" alt="Alt text" style="margin-right: 10px;">
+  <img src="images/profile_pic.png" alt="Alt text" style="margin-right: 10px;">
   <p>Here is some text that appears to the right of the image. You can write a detailed description or any content you like here.</p>
 </div>
 
