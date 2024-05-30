@@ -23,12 +23,12 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 - **Real-time Tools**: Ensured agents operate based on accurate and current information, enhancing reliability and task quality.
 - **Impact**: Leveraged LLM's reasoning capabilities by 50%, significantly enhancing the agents' ability to understand and complete complex tasks.
 
-### 🦙 Fine Tuning LLAMA2 Using QLORA [link](https://github.com/kalyan926/FineTuning-using-QLORA)
+### 🦙 Fine Tuning LLAMA2 Using QLORA [Project link](https://github.com/kalyan926/FineTuning-using-QLORA)
 - **Method**: Fine-tuned the base LLAMA2 using QLORA method with <1% trainable parameters, achieving faster training on limited hardware (single GPU).
 - **Quantization**: Quantized the model to 4-bit Normal Float using bitsandbytes library and added LoRA layers using PEFT library.
 - **Performance**: Despite quantization and LoRA layers, the model reported only a 10% drop in performance compared to the original full-precision model.
 
-### 🌐 Translator with Transformer Architecture [link](https://github.com/kalyan926/Translator)
+### 🌐 Translator with Transformer Architecture [Project link](https://github.com/kalyan926/Translator)
 - **Architecture**: Developed an English to Telugu translator using complete transformer architecture built from scratch with Keras subclassing APIs.
 - **Training**: Employed custom training loop and scheduled learning rate for faster convergence. Used kerastuner for hyperparameter selection.
 - **Evaluation**: Model's translation quality evaluated using BLEU score.
