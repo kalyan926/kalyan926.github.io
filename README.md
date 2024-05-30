@@ -1,12 +1,12 @@
 
 <div style="display: flex; align-items: center;">
-  <img src="images/profile_pic.png" alt="Alt text" style="margin-right: 10px;">
-  <p>Here is some text that appears to the right of the image. You can write a detailed description or any content you like here.</p>
+  <img src="images/profile_pic.png" alt="Alt text" style="margin-right: 10px; width: 100px;">
+  <p>## 👤 About Me
+I am an NLP Data Science enthusiast with expertise in developing custom data-driven models across various domains,Fine-Tuning models using PEFT methods, leveraging large language model(LLM) capabilities with Langchain, creating multi-agent systems with Langchain for intelligent assistance, and building conversational chatbots.</p>
 </div>
 
 
-## 👤 About Me
-I am an NLP Data Science enthusiast with expertise in developing custom data-driven models across various domains,Fine-Tuning models using PEFT methods, leveraging large language model(LLM) capabilities with Langchain, creating multi-agent systems with Langchain for intelligent assistance, and building conversational chatbots.
+
 
 ## 🛠️ Technical Skills
 
