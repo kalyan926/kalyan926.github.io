@@ -40,21 +40,13 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 
 <section id="Technical skills">
     <h2>🛠️ Technical Skills </h2>
-<p>
-  <strong>Programming Languages:</strong><br>
-  - Python<br>
-  - C++<br>
-  <strong>Data Preprocessing and Visualization:</strong><br>
-  - SQL, Pandas, Matplotlib, Seaborn<br>
-  <strong>ML/DL Libraries and Frameworks:</strong><br>
-  - Keras, TensorFlow, Scikit Learn, Numpy<br>
-  <strong>NLP Libraries:</strong><br>
-  - spaCy, NLTK, Gensim, Transformers, PEFT, Langchain, LlamaIndex<br>
-  <strong>Versioning Tools:</strong><br>
-  - Git, mlflow, DVC<br>
-  <strong>Others:</strong><br>
-  - Streamlit<br>
-</p>
+<p><strong>Programming Languages:<strong> Python, C++ <br>
+<ul> <strong>Data Preprocessing and Visualization:</strong> SQL, Pandas, Matplotlib, Seaborn <ul> <br> 
+<ul> <strong>ML/DL Libraries and Frameworks:</strong> Keras, TensorFlow, Scikit Learn, Numpy <ul><br>
+<ul> <strong>NLP Libraries:</strong> spaCy, NLTK, Gensim, Transformers, PEFT, Langchain, LlamaIndex <ul> <br>
+<ul> <strong>Versioning Tools:</strong> Git, mlflow, DVC <ul><br>
+<ul> <strong>Others:</strong> Streamlit <ul></p>
+
 </section>
 
 <section id="Projects">
