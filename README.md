@@ -7,6 +7,7 @@
             background-color: #FCFCF9; 
             margin: 0;
             padding: 0;
+            align-items: center;
             font-family: Arial, sans-serif;
         }
        .button-container {
@@ -16,8 +17,11 @@
             margin: 0;
             padding: 10px 20px;
             border: 1px solid #ccc;
-            background-color: #F3F3EE;
+            background-color: #C9C9C5;
             cursor: pointer;
+        }
+        .button-container button:hover {
+            background-color: #969693;
         }
     </style>
 </head>
