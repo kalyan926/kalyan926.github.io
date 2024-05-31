@@ -17,7 +17,7 @@
         .button-container button {
             margin: 0;
             padding: 10px 20px;
-            font-weight: bold;
+            font-weight: 500;
             border: 1px solid #ccc;
             background-color: #C9C9C5;
             cursor: pointer;
