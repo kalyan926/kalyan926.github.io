@@ -3,6 +3,12 @@
 <head>
     <title>My Website</title>
     <style>
+         body {
+            background-color: lightblue; 
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
        .button-container {
             display: flex;
         }
