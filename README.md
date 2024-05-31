@@ -4,7 +4,7 @@
     <title>My Website</title>
     <style>
          body {
-            background-color: lightblue; 
+            background-color: #FCFCF9; 
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@
             margin: 0;
             padding: 10px 20px;
             border: 1px solid #ccc;
-            background-color: #f0f0f0;
+            background-color: #F3F3EE;
             cursor: pointer;
         }
     </style>
