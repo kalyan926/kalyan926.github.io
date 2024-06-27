@@ -72,7 +72,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 </html>
 
 
-### 🧠 Multiagent AI Assistant
+### 🧠 Multiagent AI Assistant [(Project link)](https://github.com/kalyan926/MultiAgent_AI_Assistant)
 - **Overview**: Built a multi-agent system for intelligent task completion using LANGCHAIN and OpenAI APIs to leverage GPT-4.
 - **Specialized Agents**: Implemented three specialized agents:
   - **Task Planner**: Plans and schedules tasks.
