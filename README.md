@@ -74,10 +74,12 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 
 ### 🧠 Multiagent AI Assistant [(Project link)](https://github.com/kalyan926/MultiAgent_AI_Assistant)
 - **Overview**: Built a multi-agent system for intelligent task completion using LANGCHAIN and OpenAI APIs to leverage GPT-4.
-- **Specialized Agents**: Implemented three specialized agents:
+- **Specialized Agents**: Implemented 4 specialized agents:
   - **Task Planner**: Plans and schedules tasks.
-  - **Task Executor**: Executes the planned tasks.
+  - **Task Executoion**: Executes the planned tasks.
+  - **Evaluator Agent**:Assess the performance of output from the Task Execution.
   - **Feedback Agent**: Provides feedback and improvements.
+
 - **Integration**: Agents are interconnected to form a graph structure, enabling seamless communication and task execution.
 - **Memory and RAG**: Integrated with memory for context storage and Retrieval-Augmented Generation (RAG) to filter relevant information, preventing hallucinations and priming from irrelevant context.
 - **Real-time Tools**: Ensured agents operate based on accurate and current information, enhancing reliability and task quality.
