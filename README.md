@@ -72,29 +72,28 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 </html>
 
 
+### Translator with Transformer Architecture [(Project link)](https://github.com/kalyan926/Translator)
+
+- English to Telugu translator with complete **Transformer architecture** built from scratch using **keras subclassing APIs** for flexibility and control over the architecture's design and customization.
+- Trained the model with custom training loop and scheduled learning rate for faster convergence. Used **kerastuner** library for best selection among the range of hyperparameter models using custom metric. The model's translation quality is evaluated using **BLEU** score metric.
+- The Transformer architecture with multihead attention greatly improves the model's capability to manage long-term dependencies between words, offering improved contextual representation, capturing subtle nuances and semantic relationships crucial for translation and evaluated through **BLEU** score testing.
+
+  
+### Fine Tuning LLAMA2 Using QLORA [(Project link)](https://github.com/kalyan926/FineTuning-using-QLORA)
+
+- Finetuning the base **LLAMA2-7b** using **QLORA** method with significantly fewer trainable parameters(<1%) to achieve faster training on limited hardware resources (single GPU). Finetuning is done with python code datasets for chat completions of coding related tasks.
+- The base LLAMA2 model is quantized to 4 bit Normal Float using bitsandbytes library and then added the low rank adapter(**LORA**) layer to linear layers of model using **PEFT** library for fine tuning. Effectiveness of model is evaluated using **CODEBLEU** metric.
+- Despite quantizing the model and introducing LoRA layers, model reports only a **10% drop** in performance compared to the original full-precision model.
+
+
 ### 🧠 Multiagent AI Assistant [(Project link)](https://github.com/kalyan926/MultiAgent_AI_Assistant)
-- **Overview**: Built a multi-agent system for intelligent task completion using LANGCHAIN and OpenAI APIs to leverage GPT-4.
-- **Specialized Agents**: Implemented 4 specialized agents:
-  - **Task Planner**: Plans and schedules tasks.
-  - **Task Executoion**: Executes the planned tasks.
-  - **Evaluator Agent**:Assess the performance of output from the Task Execution.
-  - **Feedback Agent**: Provides feedback and improvements.
 
-- **Integration**: Agents are interconnected to form a graph structure, enabling seamless communication and task execution.
-- **Memory and RAG**: Integrated with memory for context storage and Retrieval-Augmented Generation (RAG) to filter relevant information, preventing hallucinations and priming from irrelevant context.
-- **Real-time Tools**: Ensured agents operate based on accurate and current information, enhancing reliability and task quality.
-- **Impact**: Leveraged LLM's reasoning capabilities by 50%, significantly enhancing the agents' ability to understand and complete complex tasks.
+- Built a multi-agent system for intelligent task completion using **LANGCHAIN** and **OpenAI APIs** to leverage GPT-4 for improving productivity and efficiency of users.
+- Implemented 4 specialized agents: **Task Planner**, **Task Executor**, **Evaluator** and **Feedback Agent** each designated for specific tasks and these agents are interconnected to form 
+  a graph structure for facilitating seamless communication and task execution. 
+- Agents are integrated with **Memory** for storing intermediate results and context, **RAG** to filter and provide only relevant information to the LLM's from the tools output, preventing **hallucinations**, **prompt injection** and **priming** of LLM due to irrelevant context of the tools output and variety of **Tools** for enhancing variety of tasks completion accurately and efficiently.
+- The project leverages LLM's reasoning and capabilities by **50%**, enhancing the multi-agents' ability to understand and complete complex tasks effectively.
 
-### 🦙 Fine Tuning LLAMA2 Using QLORA [(Project link)](https://github.com/kalyan926/FineTuning-using-QLORA)
-- **Method**: Fine-tuned the base LLAMA2 using QLORA method with <1% trainable parameters, achieving faster training on limited hardware (single GPU).
-- **Quantization**: Quantized the model to 4-bit Normal Float using bitsandbytes library and added LoRA layers using PEFT library.
-- **Performance**: Despite quantization and LoRA layers, the model reported only a 10% drop in performance compared to the original full-precision model.
-
-### 🌐 Translator with Transformer Architecture [(Project link)](https://github.com/kalyan926/Translator)
-- **Architecture**: Developed an English to Telugu translator using complete transformer architecture built from scratch with Keras subclassing APIs.
-- **Training**: Employed custom training loop and scheduled learning rate for faster convergence. Used kerastuner for hyperparameter selection.
-- **Evaluation**: Model's translation quality evaluated using BLEU score.
-- **Enhancements**: Multihead attention significantly improved handling of long-term dependencies, contextual representation, and capturing semantic nuances, leading to accurate and contextually rich translations.
 
 
 
