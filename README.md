@@ -56,9 +56,8 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 <li> <strong>Versioning Tools:</strong> Git, mlflow, DVC </li>
 <li> <strong>LLM models:</strong> GPT, LLAMA, BERT, SBERT </li> 
 <li> <strong>Vector databases:</strong> Pinecone, ChromaDB </li> 
-<li> <strong>Deployment:</strong FastAPI, AWS </li> 
-<li> <strong>Others:</strong> Streamlit </li>
-    </ul> </p> </section>
+<li> <strong>Deployment:</strong> FastAPI, AWS </li> 
+<li> <strong>Others:</strong> Streamlit </li></ul> </p> </section>
 
 <section id="Projects">
     <h2>🚀 Projects</h2>
