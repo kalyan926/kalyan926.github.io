@@ -75,7 +75,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 </html>
 
 
-### Translator with Transformer Architecture [(Project link)](https://github.com/kalyan926/Translator)
+### TRANSLATOR WITH TRANSFOMER ARCHITECTURE [(Project link)](https://github.com/kalyan926/Translator)
 
 - English to Telugu translator with complete **Transformer architecture** built from scratch using **keras subclassing APIs** for flexibility and control over the architecture's design and customization.
 - Trained the model with custom training loop and scheduled learning rate for faster convergence. Used **kerastuner** library for best selection among the range of hyperparameter models using custom metric. The model's translation quality is evaluated using **BLEU** score metric.
@@ -88,7 +88,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 - **Achieved considerable reasoning performance without costly RLHF/RLVF training**, reducing training compute costs by **~80%**, by utilizing **controlled sampling** and evaluation at inference-time to **guide solution discovery** using existing LLM’s knowledge.
 
   
-### 🧠 Multiagent AI Assistant [(Project link)](https://github.com/kalyan926/MutiAgent-AI-Assistant)
+### 🧠 MULTIAGENT AI ASSISTANT [(Project link)](https://github.com/kalyan926/MutiAgent-AI-Assistant)
 
 - **Developed** a Multi-Agent System from scratch using **Python** and **Groq APIs**, integrating open-source **LLMs** and the **Tree of Thoughts** technique to enable intelligent, structured task execution. Designed three specialized agents—**Planning**, **Execution**, and  **Evaluator**—coordinated by an **Orchestrator** to ensure seamless communication and workflow. The Execution Agent applies the **Tree of Thoughts** approach to intelligently retry, backtrack, or replan based on dynamic feedback.
 - **Enhanced** multi-agent performance by integrating **Memory** (short- and long-term) for contextual continuity, **Retrieval-Augmented Generation (RAG)** for domain-specific knowledge to **reduce hallucinations**, and **external tools** for real-time interaction with the environment. This architecture led to a **50% increase in task completion accuracy**, demonstrating robustness and efficiency in complex task handling.
@@ -98,7 +98,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 - Developed an **LLM** by fine-tuning **LLaMA-3.2-1B-Instruct** on synthetic **behavioral ReAct prompt data**, enabling it to intelligently decide between direct answering, database querying, or invoking real-time tools, while reducing input tokens by **60%** and compute overhead by **25%** without compromising performance.
 - Optimized model deployment by **quantizing** and converting the fine-tuned model to **GGUF** format using **llama-cpp**, and deployed it on **AWS** cloud. Achieved **12 tokens/sec** inference speed and a **50% boost** in processing throughput, significantly improving realtime responsiveness and production scalability.
 
-### Fine Tuning LLAMA2 Using QLORA [(Project link)](https://github.com/kalyan926/FineTuning-using-QLORA)
+### FINE TUNING LLAMA2 USING QLORA [(Project link)](https://github.com/kalyan926/FineTuning-using-QLORA)
 
 - Finetuning the base **LLAMA2-7b** using **QLORA** method with significantly fewer trainable parameters(<1%) to achieve faster training on limited hardware resources (single GPU). Finetuning is done with python code datasets for chat completions of coding related tasks.
 - The base LLAMA2 model is quantized to 4 bit Normal Float using bitsandbytes library and then added the low rank adapter(**LORA**) layer to linear layers of model using **PEFT** library for fine tuning. Effectiveness of model is evaluated using **CODEBLEU** metric.
