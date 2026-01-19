@@ -82,7 +82,7 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 - The Transformer architecture with multihead attention greatly improves the model's capability to manage long-term dependencies between words, offering improved contextual representation, capturing subtle nuances and semantic relationships crucial for translation and evaluated through **BLEU** score testing.
 
 
-### Deep Agent
+### Deep Agent [(Project link)](https://github.com/kalyan926/Deep-Agent)
 
 - Built a long-horizon agent grounded in principles of **automatic context management** to prevent **context rot**, using context offloading, memory, filesystem, and a task tool that delegates complex subtasks to sub-agents to isolate context and prevent reasoning interference. The agent was built using **LangChain, LangGraph** and the **GPT-OSS-20B** model, using **todo management, filesystem, memory, context offloading, task delegation, code execution, and web search tools** into a full-fledged autonomous system.
 - Created a real-time agent visualization dashboard using **TypeScript and FastAPI with SSE streaming**, providing step-by-step observability into agent reasoning, tool usage, and sub-agent execution through interactive timeline UI.
