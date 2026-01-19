@@ -82,6 +82,11 @@ I am an NLP Data Science enthusiast with expertise in developing custom data-dri
 - The Transformer architecture with multihead attention greatly improves the model's capability to manage long-term dependencies between words, offering improved contextual representation, capturing subtle nuances and semantic relationships crucial for translation and evaluated through **BLEU** score testing.
 
 
+### Deep Agent
+
+- Built a long-horizon agent grounded in principles of **automatic context management** to prevent **context rot**, using context offloading, memory, filesystem, and a task tool that delegates complex subtasks to sub-agents to isolate context and prevent reasoning interference. The agent was built using **LangChain, LangGraph** and the **GPT-OSS-20B** model, using **todo management, filesystem, memory, context offloading, task delegation, code execution, and web search tools** into a full-fledged autonomous system.
+- Created a real-time agent visualization dashboard using **TypeScript and FastAPI with SSE streaming**, providing step-by-step observability into agent reasoning, tool usage, and sub-agent execution through interactive timeline UI.
+
 ### INFERENCE TIME COMPUTE REASONING [(Project link)](https://github.com/kalyan926/Inference-Time-Compute-Reasoning)
 
 - Designed and implemented an inference-time reasoning framework for **LLM’s** that simulates **human-like reasoning** using search-based algorithms **(BFS/DFS)**. This approach performs **step-wise thinking** by sampling intermediate steps and making decisions through **evaluation**, allowing intelligent **exploration** of the solution space while leveraging the LLM’s pretrained knowledge for problem solving, achieving a **30–40% improvement in reasoning accuracy** on math and coding tasks.
